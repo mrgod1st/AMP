@@ -1,0 +1,5 @@
+# Aircraft Maintenance Planning (AMP) Instance Sets
+# Python dependencies for instance loader utilities
+
+# No external dependencies required - uses only Python standard library
+# Compatible with Python 3.6+
