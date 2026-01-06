@@ -58,22 +58,24 @@ Operational and scheduling constraints:
 ## Instance Sizes
 
 ### Small Instances
-- 5-10 aircraft
-- 10-20 maintenance tasks
+- 5-7 aircraft
+- 5-6 maintenance tasks
 - 2-3 hangars
 - Planning horizon: 7-14 days
 
 ### Medium Instances
-- 20-50 aircraft
-- 50-150 maintenance tasks
-- 5-10 hangars
-- Planning horizon: 30-60 days
+- 20-25 aircraft
+- 10-20 maintenance tasks
+- 6-7 hangars
+- Planning horizon: 30-45 days
 
 ### Large Instances
-- 100-200 aircraft
-- 300-600 maintenance tasks
-- 15-30 hangars
-- Planning horizon: 90-180 days
+- 26+ aircraft
+- 26+ maintenance tasks
+- 20+ hangars
+- Planning horizon: 90+ days
+
+Note: The instance set is designed to be extensible. Researchers can create additional instances at any scale following the same format specification.
 
 ## Example Usage
 

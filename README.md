@@ -14,9 +14,9 @@ This repository contains benchmark instance sets for the Aircraft Maintenance Pl
 
 ## Instance Sizes
 
-- **Small**: 5-10 aircraft, 7-14 day planning horizon
-- **Medium**: 20-50 aircraft, 30-60 day planning horizon  
-- **Large**: 100+ aircraft, 90-180 day planning horizon
+- **Small**: 5-7 aircraft, 7-14 day planning horizon
+- **Medium**: 20-25 aircraft, 30-45 day planning horizon  
+- **Large**: 26+ aircraft, 90+ day planning horizon
 
 ## Quick Start
 

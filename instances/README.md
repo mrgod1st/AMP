@@ -44,35 +44,39 @@ Each instance is provided in JSON format with the following components:
 ## Instance Sizes
 
 ### Small Instances (`instances/small/`)
-- **Aircraft**: 5-10 aircraft
-- **Tasks**: 5-20 maintenance tasks
+- **Aircraft**: 5-7 aircraft
+- **Tasks**: 5-6 maintenance tasks
 - **Hangars**: 2-3 facilities
 - **Planning Horizon**: 7-14 days
 - **Use Case**: Algorithm development, quick testing, parameter tuning
 
 Example instances:
-- `instance_s1.json`: 5 aircraft (F-16, C-130), 5 tasks
-- `instance_s2.json`: 7 aircraft (A-10, F-15), 5 tasks
+- `instance_s1.json`: 5 aircraft (F-16, C-130), 5 tasks, 14-day horizon
+- `instance_s2.json`: 7 aircraft (A-10, F-15), 5 tasks, 10-day horizon
+- `instance_s3.json`: 6 aircraft (F-16, C-130), 6 tasks, 7-day horizon
 
 ### Medium Instances (`instances/medium/`)
-- **Aircraft**: 20-50 aircraft
-- **Tasks**: 50-150 maintenance tasks
-- **Hangars**: 5-10 facilities
-- **Planning Horizon**: 30-60 days
+- **Aircraft**: 20-25 aircraft
+- **Tasks**: 10-20 maintenance tasks
+- **Hangars**: 6-7 facilities
+- **Planning Horizon**: 30-45 days
 - **Use Case**: Realistic testing, performance evaluation, comparison studies
 
 Example instances:
-- `instance_m1.json`: 25 aircraft (F-16, F-15, C-130, A-10), 10+ tasks
+- `instance_m1.json`: 25 aircraft (F-16, F-15, C-130, A-10), 10 tasks, 30-day horizon
+- `instance_m2.json`: 20 aircraft (F-16, F-15, C-130, A-10), 20 tasks, 45-day horizon
 
 ### Large Instances (`instances/large/`)
-- **Aircraft**: 100-200 aircraft
-- **Tasks**: 300-600 maintenance tasks
-- **Hangars**: 15-30 facilities
-- **Planning Horizon**: 90-180 days
-- **Use Case**: Scalability testing, real-world scenarios, computational challenge
+- **Aircraft**: 26+ aircraft
+- **Tasks**: 26+ maintenance tasks
+- **Hangars**: 20+ facilities
+- **Planning Horizon**: 90+ days
+- **Use Case**: Scalability testing, extended planning scenarios, computational challenge
 
 Example instances:
-- `instance_l1.json`: 26+ aircraft (F-16, F-15, C-130, A-10), 26+ tasks
+- `instance_l1.json`: 26 aircraft (F-16, F-15, C-130, A-10), 26 tasks, 90-day horizon
+
+Note: The large instance category is designed to be extensible. Additional larger instances can be created following the same format for more challenging scalability tests.
 
 ## Aircraft Types
 
