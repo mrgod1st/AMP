@@ -1,0 +1,187 @@
+{
+  "instance_name": "small_instance_3",
+  "instance_type": "small",
+  "planning_horizon": 7,
+  "aircraft_fleet": [
+    {
+      "aircraft_id": "C001",
+      "aircraft_type": "F-16",
+      "operational_status": "operational",
+      "flight_hours": 560,
+      "last_maintenance_date": "2025-12-10",
+      "next_scheduled_maintenance": "2026-01-08",
+      "mission_priority": 5
+    },
+    {
+      "aircraft_id": "C002",
+      "aircraft_type": "F-16",
+      "operational_status": "operational",
+      "flight_hours": 320,
+      "last_maintenance_date": "2025-12-28",
+      "next_scheduled_maintenance": "2026-01-12",
+      "mission_priority": 3
+    },
+    {
+      "aircraft_id": "C003",
+      "aircraft_type": "F-16",
+      "operational_status": "maintenance",
+      "flight_hours": 690,
+      "last_maintenance_date": "2026-01-05",
+      "next_scheduled_maintenance": "2026-02-10",
+      "mission_priority": 1
+    },
+    {
+      "aircraft_id": "C004",
+      "aircraft_type": "C-130",
+      "operational_status": "operational",
+      "flight_hours": 480,
+      "last_maintenance_date": "2025-12-18",
+      "next_scheduled_maintenance": "2026-01-10",
+      "mission_priority": 4
+    },
+    {
+      "aircraft_id": "C005",
+      "aircraft_type": "C-130",
+      "operational_status": "grounded",
+      "flight_hours": 720,
+      "last_maintenance_date": "2025-11-25",
+      "next_scheduled_maintenance": "2026-01-06",
+      "mission_priority": 5
+    },
+    {
+      "aircraft_id": "C006",
+      "aircraft_type": "F-16",
+      "operational_status": "operational",
+      "flight_hours": 410,
+      "last_maintenance_date": "2025-12-20",
+      "next_scheduled_maintenance": "2026-01-14",
+      "mission_priority": 4
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "task_id": "TC001",
+      "task_type": "preventive",
+      "aircraft_id": "C001",
+      "aircraft_type": "F-16",
+      "duration": 20,
+      "required_resources": ["hangar", "engine_tools", "diagnostic_equipment"],
+      "required_technicians": [
+        {"skill_level": "expert", "count": 1},
+        {"skill_level": "intermediate", "count": 2}
+      ],
+      "deadline": "2026-01-08",
+      "priority": 5
+    },
+    {
+      "task_id": "TC002",
+      "task_type": "scheduled",
+      "aircraft_id": "C002",
+      "aircraft_type": "F-16",
+      "duration": 14,
+      "required_resources": ["hangar", "avionics_tools"],
+      "required_technicians": [
+        {"skill_level": "intermediate", "count": 2}
+      ],
+      "deadline": "2026-01-12",
+      "priority": 3
+    },
+    {
+      "task_id": "TC003",
+      "task_type": "corrective",
+      "aircraft_id": "C003",
+      "aircraft_type": "F-16",
+      "duration": 10,
+      "required_resources": ["hangar", "electrical_tools"],
+      "required_technicians": [
+        {"skill_level": "expert", "count": 1},
+        {"skill_level": "novice", "count": 1}
+      ],
+      "deadline": "2026-01-07",
+      "priority": 1
+    },
+    {
+      "task_id": "TC004",
+      "task_type": "scheduled",
+      "aircraft_id": "C004",
+      "aircraft_type": "C-130",
+      "duration": 26,
+      "required_resources": ["hangar", "hydraulic_equipment", "engine_tools"],
+      "required_technicians": [
+        {"skill_level": "expert", "count": 1},
+        {"skill_level": "intermediate", "count": 3}
+      ],
+      "deadline": "2026-01-10",
+      "priority": 4
+    },
+    {
+      "task_id": "TC005",
+      "task_type": "unscheduled",
+      "aircraft_id": "C005",
+      "aircraft_type": "C-130",
+      "duration": 38,
+      "required_resources": ["hangar", "engine_tools", "diagnostic_equipment", "structural_repair_tools"],
+      "required_technicians": [
+        {"skill_level": "expert", "count": 2},
+        {"skill_level": "intermediate", "count": 4}
+      ],
+      "deadline": "2026-01-06",
+      "priority": 5
+    },
+    {
+      "task_id": "TC006",
+      "task_type": "preventive",
+      "aircraft_id": "C006",
+      "aircraft_type": "F-16",
+      "duration": 18,
+      "required_resources": ["hangar", "avionics_tools", "radar_equipment"],
+      "required_technicians": [
+        {"skill_level": "intermediate", "count": 2}
+      ],
+      "deadline": "2026-01-14",
+      "priority": 4
+    }
+  ],
+  "resources": {
+    "hangars": {
+      "total": 2,
+      "capacity_per_hangar": {
+        "F-16": 2,
+        "C-130": 1
+      }
+    },
+    "technicians": {
+      "expert": 4,
+      "intermediate": 9,
+      "novice": 4
+    },
+    "spare_parts": {
+      "engine_components": 18,
+      "avionics_parts": 22,
+      "hydraulic_parts": 12,
+      "electrical_parts": 18,
+      "structural_parts": 8
+    },
+    "equipment": {
+      "engine_tools": 3,
+      "avionics_tools": 4,
+      "diagnostic_equipment": 2,
+      "hydraulic_equipment": 2,
+      "electrical_tools": 4,
+      "radar_equipment": 2,
+      "structural_repair_tools": 1
+    }
+  },
+  "constraints": {
+    "max_simultaneous_maintenance": 3,
+    "min_operational_aircraft": 3,
+    "work_shifts": [
+      {"shift_name": "day", "start_hour": 7, "end_hour": 19}
+    ],
+    "maintenance_windows": {
+      "weekdays": true,
+      "weekends": false,
+      "holidays": false
+    }
+  }
+}

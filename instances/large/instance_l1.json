@@ -1,0 +1,111 @@
+{
+  "instance_name": "large_instance_1",
+  "instance_type": "large",
+  "planning_horizon": 90,
+  "aircraft_fleet": [
+    {"aircraft_id": "L001", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 420, "last_maintenance_date": "2025-11-15", "next_scheduled_maintenance": "2026-01-25", "mission_priority": 4},
+    {"aircraft_id": "L002", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 380, "last_maintenance_date": "2025-11-20", "next_scheduled_maintenance": "2026-01-28", "mission_priority": 3},
+    {"aircraft_id": "L003", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 510, "last_maintenance_date": "2025-11-10", "next_scheduled_maintenance": "2026-01-20", "mission_priority": 5},
+    {"aircraft_id": "L004", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 450, "last_maintenance_date": "2025-11-18", "next_scheduled_maintenance": "2026-01-26", "mission_priority": 4},
+    {"aircraft_id": "L005", "aircraft_type": "F-16", "operational_status": "maintenance", "flight_hours": 490, "last_maintenance_date": "2025-12-03", "next_scheduled_maintenance": "2026-02-15", "mission_priority": 2},
+    {"aircraft_id": "L006", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 310, "last_maintenance_date": "2025-11-28", "next_scheduled_maintenance": "2026-02-08", "mission_priority": 2},
+    {"aircraft_id": "L007", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 280, "last_maintenance_date": "2025-11-30", "next_scheduled_maintenance": "2026-02-10", "mission_priority": 1},
+    {"aircraft_id": "L008", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 520, "last_maintenance_date": "2025-11-09", "next_scheduled_maintenance": "2026-01-19", "mission_priority": 5},
+    {"aircraft_id": "L009", "aircraft_type": "F-16", "operational_status": "grounded", "flight_hours": 670, "last_maintenance_date": "2025-10-28", "next_scheduled_maintenance": "2026-01-10", "mission_priority": 3},
+    {"aircraft_id": "L010", "aircraft_type": "F-16", "operational_status": "operational", "flight_hours": 395, "last_maintenance_date": "2025-11-22", "next_scheduled_maintenance": "2026-01-30", "mission_priority": 4},
+    {"aircraft_id": "L011", "aircraft_type": "F-15", "operational_status": "operational", "flight_hours": 470, "last_maintenance_date": "2025-11-17", "next_scheduled_maintenance": "2026-01-27", "mission_priority": 4},
+    {"aircraft_id": "L012", "aircraft_type": "F-15", "operational_status": "operational", "flight_hours": 540, "last_maintenance_date": "2025-11-11", "next_scheduled_maintenance": "2026-01-21", "mission_priority": 5},
+    {"aircraft_id": "L013", "aircraft_type": "F-15", "operational_status": "operational", "flight_hours": 410, "last_maintenance_date": "2025-11-21", "next_scheduled_maintenance": "2026-01-31", "mission_priority": 3},
+    {"aircraft_id": "L014", "aircraft_type": "F-15", "operational_status": "operational", "flight_hours": 460, "last_maintenance_date": "2025-11-16", "next_scheduled_maintenance": "2026-01-24", "mission_priority": 4},
+    {"aircraft_id": "L015", "aircraft_type": "F-15", "operational_status": "operational", "flight_hours": 530, "last_maintenance_date": "2025-11-08", "next_scheduled_maintenance": "2026-01-18", "mission_priority": 5},
+    {"aircraft_id": "L016", "aircraft_type": "C-130", "operational_status": "operational", "flight_hours": 530, "last_maintenance_date": "2025-11-12", "next_scheduled_maintenance": "2026-01-22", "mission_priority": 5},
+    {"aircraft_id": "L017", "aircraft_type": "C-130", "operational_status": "operational", "flight_hours": 340, "last_maintenance_date": "2025-11-25", "next_scheduled_maintenance": "2026-02-05", "mission_priority": 3},
+    {"aircraft_id": "L018", "aircraft_type": "C-130", "operational_status": "operational", "flight_hours": 360, "last_maintenance_date": "2025-11-24", "next_scheduled_maintenance": "2026-02-03", "mission_priority": 3},
+    {"aircraft_id": "L019", "aircraft_type": "C-130", "operational_status": "maintenance", "flight_hours": 580, "last_maintenance_date": "2025-12-02", "next_scheduled_maintenance": "2026-02-12", "mission_priority": 2},
+    {"aircraft_id": "L020", "aircraft_type": "C-130", "operational_status": "operational", "flight_hours": 320, "last_maintenance_date": "2025-11-27", "next_scheduled_maintenance": "2026-02-06", "mission_priority": 2},
+    {"aircraft_id": "L021", "aircraft_type": "C-130", "operational_status": "operational", "flight_hours": 550, "last_maintenance_date": "2025-11-07", "next_scheduled_maintenance": "2026-01-17", "mission_priority": 5},
+    {"aircraft_id": "L022", "aircraft_type": "A-10", "operational_status": "operational", "flight_hours": 610, "last_maintenance_date": "2025-11-08", "next_scheduled_maintenance": "2026-01-18", "mission_priority": 5},
+    {"aircraft_id": "L023", "aircraft_type": "A-10", "operational_status": "operational", "flight_hours": 430, "last_maintenance_date": "2025-11-19", "next_scheduled_maintenance": "2026-01-29", "mission_priority": 4},
+    {"aircraft_id": "L024", "aircraft_type": "A-10", "operational_status": "operational", "flight_hours": 500, "last_maintenance_date": "2025-11-13", "next_scheduled_maintenance": "2026-01-23", "mission_priority": 5},
+    {"aircraft_id": "L025", "aircraft_type": "A-10", "operational_status": "operational", "flight_hours": 390, "last_maintenance_date": "2025-11-23", "next_scheduled_maintenance": "2026-02-02", "mission_priority": 3},
+    {"aircraft_id": "L026", "aircraft_type": "A-10", "operational_status": "operational", "flight_hours": 630, "last_maintenance_date": "2025-11-05", "next_scheduled_maintenance": "2026-01-15", "mission_priority": 5}
+  ],
+  "maintenance_tasks": [
+    {"task_id": "LT001", "task_type": "preventive", "aircraft_id": "L001", "aircraft_type": "F-16", "duration": 24, "required_resources": ["hangar", "engine_tools"], "required_technicians": [{"skill_level": "expert", "count": 1}, {"skill_level": "intermediate", "count": 2}], "deadline": "2026-01-25", "priority": 4},
+    {"task_id": "LT002", "task_type": "scheduled", "aircraft_id": "L002", "aircraft_type": "F-16", "duration": 16, "required_resources": ["hangar", "avionics_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 2}], "deadline": "2026-01-28", "priority": 3},
+    {"task_id": "LT003", "task_type": "preventive", "aircraft_id": "L003", "aircraft_type": "F-16", "duration": 28, "required_resources": ["hangar", "engine_tools", "diagnostic_equipment"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 2}], "deadline": "2026-01-20", "priority": 5},
+    {"task_id": "LT004", "task_type": "scheduled", "aircraft_id": "L004", "aircraft_type": "F-16", "duration": 22, "required_resources": ["hangar", "avionics_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 2}], "deadline": "2026-01-26", "priority": 4},
+    {"task_id": "LT005", "task_type": "corrective", "aircraft_id": "L005", "aircraft_type": "F-16", "duration": 12, "required_resources": ["hangar", "electrical_tools"], "required_technicians": [{"skill_level": "expert", "count": 1}], "deadline": "2026-01-08", "priority": 2},
+    {"task_id": "LT006", "task_type": "scheduled", "aircraft_id": "L006", "aircraft_type": "F-16", "duration": 18, "required_resources": ["hangar", "engine_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 2}], "deadline": "2026-02-08", "priority": 2},
+    {"task_id": "LT007", "task_type": "preventive", "aircraft_id": "L007", "aircraft_type": "F-16", "duration": 20, "required_resources": ["hangar", "avionics_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 2}], "deadline": "2026-02-10", "priority": 1},
+    {"task_id": "LT008", "task_type": "preventive", "aircraft_id": "L008", "aircraft_type": "F-16", "duration": 26, "required_resources": ["hangar", "engine_tools", "diagnostic_equipment"], "required_technicians": [{"skill_level": "expert", "count": 1}, {"skill_level": "intermediate", "count": 2}], "deadline": "2026-01-19", "priority": 5},
+    {"task_id": "LT009", "task_type": "unscheduled", "aircraft_id": "L009", "aircraft_type": "F-16", "duration": 40, "required_resources": ["hangar", "engine_tools", "diagnostic_equipment"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-10", "priority": 3},
+    {"task_id": "LT010", "task_type": "scheduled", "aircraft_id": "L010", "aircraft_type": "F-16", "duration": 20, "required_resources": ["hangar", "hydraulic_equipment"], "required_technicians": [{"skill_level": "intermediate", "count": 2}], "deadline": "2026-01-30", "priority": 4},
+    {"task_id": "LT011", "task_type": "scheduled", "aircraft_id": "L011", "aircraft_type": "F-15", "duration": 26, "required_resources": ["hangar", "avionics_tools", "radar_equipment"], "required_technicians": [{"skill_level": "expert", "count": 1}, {"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-27", "priority": 4},
+    {"task_id": "LT012", "task_type": "preventive", "aircraft_id": "L012", "aircraft_type": "F-15", "duration": 30, "required_resources": ["hangar", "engine_tools", "radar_equipment"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-21", "priority": 5},
+    {"task_id": "LT013", "task_type": "scheduled", "aircraft_id": "L013", "aircraft_type": "F-15", "duration": 24, "required_resources": ["hangar", "avionics_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-31", "priority": 3},
+    {"task_id": "LT014", "task_type": "preventive", "aircraft_id": "L014", "aircraft_type": "F-15", "duration": 28, "required_resources": ["hangar", "engine_tools", "diagnostic_equipment"], "required_technicians": [{"skill_level": "expert", "count": 1}, {"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-24", "priority": 4},
+    {"task_id": "LT015", "task_type": "preventive", "aircraft_id": "L015", "aircraft_type": "F-15", "duration": 32, "required_resources": ["hangar", "engine_tools", "radar_equipment"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-18", "priority": 5},
+    {"task_id": "LT016", "task_type": "preventive", "aircraft_id": "L016", "aircraft_type": "C-130", "duration": 32, "required_resources": ["hangar", "engine_tools", "hydraulic_equipment"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 4}], "deadline": "2026-01-22", "priority": 5},
+    {"task_id": "LT017", "task_type": "scheduled", "aircraft_id": "L017", "aircraft_type": "C-130", "duration": 20, "required_resources": ["hangar", "avionics_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 3}], "deadline": "2026-02-05", "priority": 3},
+    {"task_id": "LT018", "task_type": "scheduled", "aircraft_id": "L018", "aircraft_type": "C-130", "duration": 22, "required_resources": ["hangar", "hydraulic_equipment"], "required_technicians": [{"skill_level": "intermediate", "count": 3}], "deadline": "2026-02-03", "priority": 3},
+    {"task_id": "LT019", "task_type": "corrective", "aircraft_id": "L019", "aircraft_type": "C-130", "duration": 14, "required_resources": ["hangar", "electrical_tools"], "required_technicians": [{"skill_level": "expert", "count": 1}], "deadline": "2026-01-09", "priority": 2},
+    {"task_id": "LT020", "task_type": "scheduled", "aircraft_id": "L020", "aircraft_type": "C-130", "duration": 18, "required_resources": ["hangar", "avionics_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 3}], "deadline": "2026-02-06", "priority": 2},
+    {"task_id": "LT021", "task_type": "preventive", "aircraft_id": "L021", "aircraft_type": "C-130", "duration": 34, "required_resources": ["hangar", "engine_tools", "hydraulic_equipment"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 4}], "deadline": "2026-01-17", "priority": 5},
+    {"task_id": "LT022", "task_type": "preventive", "aircraft_id": "L022", "aircraft_type": "A-10", "duration": 30, "required_resources": ["hangar", "weapons_systems", "engine_tools"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-18", "priority": 5},
+    {"task_id": "LT023", "task_type": "scheduled", "aircraft_id": "L023", "aircraft_type": "A-10", "duration": 22, "required_resources": ["hangar", "hydraulic_equipment"], "required_technicians": [{"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-29", "priority": 4},
+    {"task_id": "LT024", "task_type": "preventive", "aircraft_id": "L024", "aircraft_type": "A-10", "duration": 28, "required_resources": ["hangar", "weapons_systems", "engine_tools"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 3}], "deadline": "2026-01-23", "priority": 5},
+    {"task_id": "LT025", "task_type": "scheduled", "aircraft_id": "L025", "aircraft_type": "A-10", "duration": 20, "required_resources": ["hangar", "avionics_tools"], "required_technicians": [{"skill_level": "intermediate", "count": 2}], "deadline": "2026-02-02", "priority": 3},
+    {"task_id": "LT026", "task_type": "preventive", "aircraft_id": "L026", "aircraft_type": "A-10", "duration": 32, "required_resources": ["hangar", "weapons_systems", "engine_tools", "hydraulic_equipment"], "required_technicians": [{"skill_level": "expert", "count": 2}, {"skill_level": "intermediate", "count": 4}], "deadline": "2026-01-15", "priority": 5}
+  ],
+  "resources": {
+    "hangars": {
+      "total": 20,
+      "capacity_per_hangar": {
+        "F-16": 2,
+        "F-15": 1,
+        "C-130": 1,
+        "A-10": 2
+      }
+    },
+    "technicians": {
+      "expert": 25,
+      "intermediate": 60,
+      "novice": 35
+    },
+    "spare_parts": {
+      "engine_components": 150,
+      "avionics_parts": 200,
+      "hydraulic_parts": 100,
+      "electrical_parts": 150,
+      "weapons_parts": 80,
+      "structural_parts": 120,
+      "fuel_system_parts": 90,
+      "landing_gear_parts": 70
+    },
+    "equipment": {
+      "engine_tools": 20,
+      "avionics_tools": 25,
+      "diagnostic_equipment": 15,
+      "hydraulic_equipment": 18,
+      "electrical_tools": 30,
+      "weapons_systems": 12,
+      "radar_equipment": 10,
+      "structural_repair_tools": 15
+    }
+  },
+  "constraints": {
+    "max_simultaneous_maintenance": 15,
+    "min_operational_aircraft": 20,
+    "work_shifts": [
+      {"shift_name": "morning", "start_hour": 6, "end_hour": 14},
+      {"shift_name": "afternoon", "start_hour": 14, "end_hour": 22},
+      {"shift_name": "night", "start_hour": 22, "end_hour": 6}
+    ],
+    "maintenance_windows": {
+      "weekdays": true,
+      "weekends": true,
+      "holidays": false
+    }
+  }
+}
